@@ -20,7 +20,7 @@ app.get('/tico', (req, res) => {
     res.send('teco')
 })
 
-app.get('/tico', (req, res) => {
+app.get('/pokemons', (req, res) => {
     const pokemons = ['1- Pikachu', '2- Caterpie', '3- Pidgeotto', '4- Bulbasaur', '5- Charmander', '6- Squirtle', '7- Krabby', '8- Raticate', '9- Primeape', '10- Muk']
     res.json(pokemons)
 })
